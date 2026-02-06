@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package fastifytemplate;
+
+message DiskState {
+  uint64 total_space = 1; // Total disk space in bytes
+  uint64 used_space = 2;  // Used disk space in bytes
+  uint64 free_space = 3;  // Free disk space in bytes
+}

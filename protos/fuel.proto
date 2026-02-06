@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package fastifytemplate;
+
+message FuelState {
+  double fuel_level = 1; // Fuel level in liters
+  double fuel_consumption_rate = 2; // Fuel consumption rate in liters per hour
+}
